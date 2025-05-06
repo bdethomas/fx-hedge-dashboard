@@ -1,4 +1,3 @@
-```python
 import streamlit as st
 import pandas as pd
 
@@ -75,5 +74,3 @@ else:
                     result.set_index('Expiry')['Contribution'],
                     use_container_width=True
                 )
-```
-
